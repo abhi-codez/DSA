@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/abhi-codez/DSA/tree/master/0001-two-sum) |
 | [0561-array-partition](https://github.com/abhi-codez/DSA/tree/master/0561-array-partition) |
 | [2255-count-prefixes-of-a-given-string](https://github.com/abhi-codez/DSA/tree/master/2255-count-prefixes-of-a-given-string) |
 ## String
@@ -22,4 +23,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0561-array-partition](https://github.com/abhi-codez/DSA/tree/master/0561-array-partition) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/abhi-codez/DSA/tree/master/0001-two-sum) |
 <!---LeetCode Topics End-->
