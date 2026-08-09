@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/abhi-codez/DSA/tree/master/0013-roman-to-integer) |
 | [2255-count-prefixes-of-a-given-string](https://github.com/abhi-codez/DSA/tree/master/2255-count-prefixes-of-a-given-string) |
 ## Greedy
 |  |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/abhi-codez/DSA/tree/master/0001-two-sum) |
+| [0013-roman-to-integer](https://github.com/abhi-codez/DSA/tree/master/0013-roman-to-integer) |
 ## Two Pointers
 |  |
 | ------- |
@@ -41,4 +43,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/abhi-codez/DSA/tree/master/0075-sort-colors) |
+## Math
+|  |
+| ------- |
+| [0013-roman-to-integer](https://github.com/abhi-codez/DSA/tree/master/0013-roman-to-integer) |
 <!---LeetCode Topics End-->
