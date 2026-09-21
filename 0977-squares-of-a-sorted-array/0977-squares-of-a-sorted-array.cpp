@@ -1,24 +1,64 @@
 class Solution {
 public:
-    vector<int> sortedSquares(vector<int>& nums) {
-        int n = nums.size();
-         vector<int> res(n);
-        int i=0;
-        int j=n-1;
-        int k=n-1;
-        while(i<=j){
-            if(abs(nums[i])<abs(nums[j])){
-                res[k]=nums[j]*nums[j];
-                j--;
-            }
-            else{
-                res[k]=nums[i]*nums[i];
-                i++;
-            }
-            k--;
-        }
-
-
-     return res;   
+    vector<int> sortedSquares(vector<int>& a) {
+    vector<int> neg;
+    vector<int> pos;   
+    int siz=a.size();
+    for(int i=0; i<siz; i++)
+    if(a[i]>=0)
+    pos.push_back(a[i]);
+    else
+    neg.push_back(a[i]);
+    if(neg.size()==0){
+    for(int i=0;i<pos.size();i++){
+    pos[i]=pos[i]*pos[i];
+    
     }
+    return pos;
+    }
+    if(pos.size()==0){
+    for(int j=0;j<neg.size();j++)
+    neg[j]=neg[j]*neg[j];
+    reverse(neg.begin(),neg.end());
+    
+    
+    return neg;
+    }
+    int i=0,j=0;
+    int id=0;
+    int n = neg.size();
+    int m = pos.size();
+    vector<int> res(m+n);
+    for(int i=0;i<n;i++)
+    neg[i]=neg[i]*neg[i];
+    reverse(neg.begin(),neg.end());
+    for(int j=0;j<m;j++)
+    pos[j]=pos[j]*pos[j];
+    while(i<n && j<m){
+    if(neg[i]<=pos[j])
+    {
+        res[id]=neg[i];
+        id++;
+        i++;
+    }
+    else
+    {
+       res[id]=pos[j];
+       id++;
+       j++;
+    }
+}
+while(i<n){
+
+    res[id]=neg[i];
+    id++;
+    i++;
+}
+while(j<m){
+    res[id]=pos[j];
+    id++;
+    j++;
+}
+   return res;
+}
 };
